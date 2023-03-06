@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://kit.fontawesome.com/20defecc31.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- for modal  -->
+<input type="checkbox" id="my-modal-5" class="modal-toggle" />
+<div id="modal-all" class="modal">
+  <!-- <div class="modal-box w-11/12  max-w-5xl">
+  </div> -->
+</div>
+
+<body class="px-8">
+    <header>
+        <h1 class="text-center bold text-3xl mt-5">AI Universe Hub</h1>
+    </header>
+   
+   
+    <!-- sort by date section  -->
+    <section class="text-center">
+        <button id="sort-by-date" class="btn btn-sm btn-error my-5">Sort By Date</button>
+    </section>
+
+ <!-- Proggress bar section -->
+    <section id="loader" class="flex justify-center invisible">
+        <progress class="progress w-56"></progress>
+    </section>
+    <!-- Card section -->
+    <main class="mt-5">
+        <section id="allAI" class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <!-- <div class="card w-full  shadow-xl">
+                <figure><img src="chatgpt_assistente 1 (4).png" alt="AI" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Features
+                  </h2>
+                 <div>
+                  <ul>
+                    <li>1.abcddd</li>
+                    <li>2.abcddd</li>
+                    <li>3.abcddd</li>
+                  </ul>
+                 </div>
+                  <div class="flex justify-between items-center">
+                   <div> 
+                    <h1 class="text-bold text-2xl">Jasper</h1>
+                    <span>Date</span>
+                    </div>
+                    <div><i class="fas fa-arrow-right"></i></div>
+                  </div>
+                  
+                </div>
+              </div> -->
+        </section>
+        <div  class="flex justify-center my-5">
+            <button id="showAllBtn" class="btn btn-primary text-center" onclick="showAllAi()">Show ALL</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
+
